@@ -16,8 +16,12 @@ const Details = () => {
           alt={wandDisc.slug}
         />
       </div>
-      <p>Wood: {wandDisc.wood}</p>
-      <p>Length: {wandDisc.length}</p>
+      <p>
+        <strong>Wood:</strong> {wandDisc.wood}
+      </p>
+      <p>
+        <strong>Length:</strong> {wandDisc.length}
+      </p>
       <Link to="/">
         <button>Back</button>
       </Link>

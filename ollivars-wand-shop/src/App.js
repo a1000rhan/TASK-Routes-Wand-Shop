@@ -3,13 +3,17 @@ import { Home } from "./Components/Home";
 import { WandList } from "./Components/WandList";
 import { Routes, Route } from "react-router-dom";
 import Details from "./Components/Details";
+import magic from "./magic.png";
 
 function App() {
   return (
     <div className="bg-secondary">
-      <h2 className="font-weight-bolder shadow p-5  text-center ">
+      <h2 className="font-weight-bolder shadow p-5 text-center tracking-in-expand">
         Ollivander's Wand Shop
       </h2>
+      <img className="magic magic1" src={magic} />
+      <img className="magic-right magic3" src={magic} />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/wondlist" element={<WandList />} />

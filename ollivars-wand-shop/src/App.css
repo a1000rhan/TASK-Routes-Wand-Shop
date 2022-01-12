@@ -22,8 +22,55 @@
   transition: 0.3s;
 }
 .image:hover {
-  width: 320px;
+  width: 310px;
 }
-.motion {
-  animation: 0.5s linear 1s infinite alternate slidein;
+.magic {
+  width: 100px;
+  position: absolute;
+  animation: fill 5s ease infinite;
+}
+.magic-right {
+  width: 100px;
+  position: absolute;
+  animation: fill2 5s ease infinite;
+}
+.magic1 {
+  top: 40px;
+}
+
+.magic3 {
+  top: 40px;
+}
+
+@keyframes fill {
+  0% {
+    left: 0%;
+    opacity: 0%;
+  }
+
+  50% {
+    left: 10%;
+    opacity: 50%;
+  }
+
+  100% {
+    left: 0%;
+    opacity: 0%;
+  }
+}
+@keyframes fill2 {
+  0% {
+    right: 0%;
+    opacity: 0%;
+  }
+
+  50% {
+    right: 10%;
+    opacity: 50%;
+  }
+
+  100% {
+    right: 0%;
+    opacity: 0%;
+  }
 }

@@ -53,7 +53,7 @@ const wands = [
     length: 10,
     slug: "unicorn-hair-hawthorn-1",
     imageUrl:
-      "https://vignette.wikia.nocookie.net/harrypotter/images/3/39/DracoMalfoyWandNN8409.jpg/revision/latest?cb=20141208233016",
+      "https://64.media.tumblr.com/be1e40c70eca19e267c6eeb18c8060b8/tumblr_ntd9s8GV0X1uvj5cdo1_640.jpg",
   },
 ];
 
