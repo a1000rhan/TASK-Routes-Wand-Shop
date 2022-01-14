@@ -32,7 +32,7 @@ const wands = [
       "https://vignette.wikia.nocookie.net/harrypotter/images/7/7e/Remus_Lupin_wand.png/revision/latest/scale-to-width-down/700?cb=20161126073935",
   },
   {
-    core: "Dragon heartstring",
+    core: "Dragon Heartstring",
     wood: "Vine",
     length: 10.75,
     slug: "dragon-heartstring-vine-1",

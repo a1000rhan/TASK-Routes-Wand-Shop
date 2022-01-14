@@ -44,33 +44,51 @@
 
 @keyframes fill {
   0% {
-    left: 0%;
+    left: 3%;
     opacity: 0%;
   }
 
   50% {
-    left: 10%;
+    left: 3%;
     opacity: 50%;
   }
 
   100% {
-    left: 0%;
+    left: 3%;
     opacity: 0%;
   }
 }
 @keyframes fill2 {
   0% {
-    right: 0%;
+    right: 3%;
     opacity: 0%;
   }
 
   50% {
-    right: 10%;
+    right: 3%;
     opacity: 50%;
   }
 
   100% {
-    right: 0%;
+    right: 3%;
     opacity: 0%;
   }
+}
+
+.wood-text {
+  background: url("https://i.imgur.com/OUyfQnt.jpg");
+  background-size: cover;
+  position: relative;
+  font-size: 110px * 1.5;
+  text-transform: uppercase;
+  font-family: "Rancho", cursive;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.backg {
+  background-color: rgba(1, 13, 36, 0.783);
+}
+.cardlist {
+  background-color: rgba(0, 40, 114, 0.783);
 }

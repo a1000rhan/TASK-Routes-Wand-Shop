@@ -7,10 +7,10 @@ import magic from "./magic.png";
 
 function App() {
   return (
-    <div className="bg-secondary">
-      <h2 className="font-weight-bolder shadow p-5 text-center tracking-in-expand">
+    <div className="backg">
+      <h1 className="font-weight-bolder shadow p-5 text-center tracking-in-expand wood-text">
         Ollivander's Wand Shop
-      </h2>
+      </h1>
       <img className="magic magic1" src={magic} />
       <img className="magic-right magic3" src={magic} />
 
