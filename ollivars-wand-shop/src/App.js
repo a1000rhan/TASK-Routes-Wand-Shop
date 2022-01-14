@@ -8,7 +8,7 @@ import magic from "./magic.png";
 function App() {
   return (
     <div className="backg">
-      <h1 className="font-weight-bolder shadow p-5 text-center tracking-in-expand wood-text">
+      <h1 className="font-weight-bold shadow p-5 text-center tracking-in-expand wood-text">
         Ollivander's Wand Shop
       </h1>
       <img className="magic magic1" src={magic} />
